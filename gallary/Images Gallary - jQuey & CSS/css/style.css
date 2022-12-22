@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #333;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#mainImages{
+    height: 520px;
+    width: 740px;
+    border: 3px solid #fff;
+}
+
+.imgStyle{
+    height: 130px;
+    width: 130px;
+    border: 3px solid #fff;
+    display: inline-block;
+    margin-left: 11px;
+}
